@@ -1,0 +1,120 @@
+@import "variables";
+.navbar{
+    background-color: $primary-color !important;
+}
+
+.navbar-nav{
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: space-around;
+    width: 500px;
+    font-family: $font-family-montserrat;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+// TO DO hacer mas chica de altura, overflow hidden
+.image_carousel{
+    width: 100%;
+    // height: 50%;
+}
+
+
+.carousel-inner {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    // position: relative;
+}
+.carousel-inner > .carousel-item {
+    // margin-top: -300px;
+    // display: block;
+    // position: relative;	
+}
+
+.carousel-caption{
+    // background-color: $primary-color-transparent;
+    width: 100%;
+    height: 100%;
+    left: 0 !important;
+
+}
+
+.container__titulo-slides{
+    color: white;
+    font-family: $font-family-montserrat;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.text{
+    color: $primary-color;
+    font-weight: 600;
+}
+
+.text-font-size{
+    font-size: 12px;
+}
+
+.wave-background{
+    background-image: url("../images/bg-agua.jpg");
+    background-repeat: no-repeat;
+}
+
+.primary-color{
+    color: $primary-color;
+}
+
+.line-height{
+    line-height: 1;
+}
+
+.map-text{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    // transform: translate(-50%, -50%);
+}
+
+.b-secondary{
+    background-color: $secondary-color !important;
+}
+
+.b-relative{
+    position: relative;
+}
+
+.c-primary{
+    color: $primary-color;
+}
+// TO DO ver esto
+.alm-text{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    // transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    // TO DO ver de poner la clase al segundo elemento
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.ico-map{
+    position: absolute;
+    top: 59%;
+    left: 31%;
+}
