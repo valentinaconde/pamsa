@@ -104,4 +104,20 @@
   left: 31%;
 }
 
+.font-sm {
+  font-size: 12px;
+}
+
+.text-footer {
+  height: 20px;
+}
+
+.b-gray {
+  background-color: #6E6E6E;
+}
+
+.b-l-gray {
+  background-color: #8F8F8F;
+}
+
 /*# sourceMappingURL=style.css.map */
