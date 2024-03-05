@@ -9,7 +9,6 @@
   font-weight: 700;
   justify-content: space-around;
   width: 500px;
-  font-family: "Montserrat", sans-serif;
 }
 
 .nav-link {
@@ -20,16 +19,16 @@
   width: 100%;
 }
 
-.carousel-inner {
-  width: 100%;
-  height: 85vh;
-  overflow: hidden;
-}
-
 .carousel-caption {
   width: 100%;
   height: 100%;
   left: 0 !important;
+}
+
+.prueba {
+  border-radius: 50% !important;
+  height: 8px !important;
+  width: 8px !important;
 }
 
 .container__titulo-slides {
@@ -43,23 +42,16 @@
   align-items: center;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 70px;
-  height: 70px;
-}
-
-.text {
-  color: #1C3F81;
-  font-weight: 600;
-}
-
-.text-font-size {
-  font-size: 12px;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px !important;
+  height: 50px !important;
 }
 
 .wave-background {
   background-image: url("../images/bg-agua.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .primary-color {
@@ -84,10 +76,6 @@
   position: relative;
 }
 
-.c-primary {
-  color: #1C3F81;
-}
-
 .alm-text {
   position: absolute;
   top: 60%;
@@ -104,10 +92,6 @@
   left: 31%;
 }
 
-.font-sm {
-  font-size: 12px;
-}
-
 .text-footer {
   height: 20px;
 }
@@ -118,6 +102,72 @@
 
 .b-l-gray {
   background-color: #8F8F8F;
+}
+
+.d-styles {
+  left: 51% !important;
+  transform: translateX(-51%);
+  background-color: #71D2FD !important;
+  top: 67px !important;
+  border-radius: 0px !important;
+}
+
+.d-item {
+  color: #1C3F81 !important;
+}
+
+.d-item:hover {
+  background-color: #71D2FD !important;
+  font-weight: bold;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.font-sm {
+  font-size: 12px;
+}
+
+.font-md {
+  font-size: 16px;
+}
+
+.font-lg {
+  font-size: 20px;
+}
+
+.font-xl {
+  font-size: 32px;
+}
+
+.font-xxl {
+  font-size: 40px;
+}
+
+.font-msrrt {
+  font-family: "Montserrat", sans-serif;
+}
+
+.font-sserif {
+  font-family: "Source Serif 4", serif;
+  font-weight: 350;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.color-primary {
+  color: #1C3F81;
+}
+
+.color-secondary {
+  color: #2276BB;
+}
+
+.color-tertiary {
+  color: #0040A6;
 }
 
 /*# sourceMappingURL=style.css.map */
