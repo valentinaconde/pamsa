@@ -1,42 +1,113 @@
 @import "variables";
-.navbar{
+
+.font-sm {
+    font-size: 0.8vw;
+}
+
+.font-md {
+    font-size: 1vw;
+}
+
+.font-lg {
+    font-size: 1.5vw;
+}
+
+.font-xl {
+    font-size: 2vw;
+}
+
+.font-xxl {
+    font-size: 3vw;
+}
+
+.font-msrrt {
+    font-family: $font-family-montserrat;
+}
+
+.font-sserif {
+    font-family: $font-family-source-serif;
+    font-weight: 350;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.color-primary {
+    color: $primary-color;
+}
+
+.color-secondary {
+    color: $secondary-color;
+}
+
+.color-tertiary {
+    color: $tertiary-color;
+}
+
+.b-secondary {
+    background-color: $secondary-color !important;
+}
+
+.b-relative {
+    position: relative;
+}
+
+.b-gray {
+    background-color: $gray;
+}
+
+.b-lgray {
+    background-color: $light-gray;
+}
+
+.language-es{
+    color: $active-language;
+}
+
+.language-en{
+    color: $inactive-language;
+}
+
+.navbar {
     background-color: $primary-color !important;
 }
 
-.navbar-nav{
+.navbar-nav {
     align-items: center;
     color: white;
     font-size: 12px;
     font-weight: 700;
     justify-content: space-around;
     width: 500px;
-    font-family: $font-family-montserrat;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
 }
 
-// TO DO hacer mas chica de altura, overflow hidden
-.image_carousel{
+.d-styles {
+    left: 51% !important;
+    transform: translateX(-51%);
+    background-color: $fourth-color !important;
+    top: 67px !important;
+    border-radius: 0px !important;
+}
+
+.d-item{
+    color: $primary-color !important;
+
+}
+.d-item:hover{
+    background-color: $fourth-color !important;
+    font-weight: bold;
+}
+
+.image_carousel {
     width: 100%;
-    // height: 50%;
 }
 
-
-.carousel-inner {
-    width: 100%;
-    height: 85vh;
-    overflow: hidden;
-    // position: relative;
-}
-.carousel-inner > .carousel-item {
-    // margin-top: -300px;
-    // display: block;
-    // position: relative;	
-}
-
-.carousel-caption{
+.carousel-caption {
     // background-color: $primary-color-transparent;
     width: 100%;
     height: 100%;
@@ -44,9 +115,14 @@
 
 }
 
-.container__titulo-slides{
+.carousel-button{
+    border-radius: 50% !important;
+    height: 8px !important;
+    width: 8px !important;
+}
+
+.container__titulo-slides {
     color: white;
-    font-family: $font-family-montserrat;
     height: 100%;
     text-align: center;
     display: flex;
@@ -55,66 +131,65 @@
     align-items: center;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 70px;
-    height: 70px;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 50px !important;
+    height: 50px !important;
 }
 
-.text{
-    color: $primary-color;
-    font-weight: 600;
-}
-
-.text-font-size{
-    font-size: 12px;
-}
-
-.wave-background{
+.wave-background {
     background-image: url("../images/bg-agua.jpg");
-    background-repeat: no-repeat;
+    // background-size: contain;
+    background-repeat: repeat-x;
+
 }
 
-.primary-color{
-    color: $primary-color;
+.alm-text-tanks, .alm-text-capacity{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
 }
 
-.line-height{
-    line-height: 1;
+.alm-text-capacity{
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 3vw;
 }
 
-.map-text{
+.n-tanks{
+font-size: 8vw;
+}
+
+.c-tanks{
+    font-size: 5vw;
+}
+
+.m3{
+    font-size: 5vw;
+}
+
+.map-text {
     position: absolute;
     top: 10%;
     left: 60%;
-    // transform: translate(-50%, -50%);
 }
 
-.b-secondary{
-    background-color: $secondary-color !important;
-}
-
-.b-relative{
-    position: relative;
-}
-
-.c-primary{
-    color: $primary-color;
-}
-// TO DO ver esto
-.alm-text{
-    position: absolute;
-    top: 60%;
-    left: 10%;
-    // transform: translate(-50%, -50%);
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    // TO DO ver de poner la clase al segundo elemento
-    text-shadow: 2px 2px 4px #000000;
-}
-
-.ico-map{
+.ico-map {
     position: absolute;
     top: 59%;
     left: 31%;
+}
+
+.text-footer {
+    height: 20px;
+}
+
+
+@media (min-width: 1570px){
+    .wave-background {
+    background-repeat: unset;
+        background-size: contain;
+    }
 }
