@@ -6,7 +6,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
-    <!-- TO DO add content -->
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -33,29 +32,30 @@
                 <a class="navbar-brand" href="#">
                     <img src="/vectors/logo-pamsa-bco.svg" alt="logo" width="150" height="80">
                 </a>
-                <div>
+                <div class="w-50">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav font-msrrt">
-                            <a class="nav-link active " aria-current="page" href="#">EMPRESA</a>
+                        <div class="navbar-nav font-msrrt w-100">
+                            <a class="nav-link" aria-current="page" href="#">EMPRESA</a>
                             <li class="nav-item dropdown ">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     SERVICIO
                                 </a>
-                                <!-- TO DO sacar estos estilos feos, sacar flechita, active item -->
                                 <ul class="dropdown-menu d-styles p-2" aria-labelledby="navbarDropdown"
                                     data-bs-auto-close="outside">
                                     <div class="d-flex">
-                                        <li class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm" href="#">TERMINAL
+                                        <li class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm"
+                                                href="#">TERMINAL
                                                 LÍQUIDOS/ALMACENAJE</a>
                                             <a class="dropdown-item  fw-medium d-item font-sm" href="#">LABORATORIO</a>
                                         </li>
-                                        <li class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm" href="#">TRANSPORTE
+                                        <li class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm"
+                                                href="#">TRANSPORTE
                                                 TERRESTRE</a>
                                             <a class="dropdown-item  fw-medium d-item font-sm" href="#">OPERACIÓN DE
                                                 SÓLIDOS</a>
@@ -66,11 +66,11 @@
 
                             </li>
                             <a class="nav-link" href="#">COMPROMISO</a>
-
-                            <!-- TO DO habilitar contacto -->
-                            <a class="nav-link disabled" aria-disabled="true">CONTACTO</a>
-                            <!-- TO DO estilos español ingles -->
-                            <span class="language">ES / EN</span>
+                            <a class="nav-link" href="#">CONTACTO</a>
+                            <div>
+                                <span class="language-es fw-normal">ES /</span>
+                                <span class="language-en fw-normal">EN</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,39 +81,24 @@
     <!-- CAROUSEL -->
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators m-0">
-            <button type="button" class="prueba" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" class="prueba" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" class="prueba" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+            <button type="button" class="carousel-button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" class="carousel-button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" class="carousel-button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
-            <!-- <div class="carousel-item active">
-                <a href="paginas/postres/pancakes.html"><img src="/images/camion-arg.jpg" class="image_carousel"
-                        alt="pancakes"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="titulo_slides">Somos Pamsa y nos especializamos en logística integral de
-                        graneles líquidos y sólidos.</h2>
-                </div>
-            </div> -->
-            <!-- TO DO sacar lo de delaika -->
             <div class="carousel-item active">
-                <a href="paginas/tartas/marquise_chocolate.html"><img src="/images/camion.jpg" class="image_carousel"
-                        alt="marquise_chocolate"></a>
+                <img src="/images/camion.jpg" class="image_carousel" alt="camion">
                 <div class="carousel-caption">
-                    <div class="container__titulo-slides">
+                    <div class="container__titulo-slides font-msrrt">
                         <p class="font-lg">Somos Pamsa y nos especializamos en logística integral de<br />
                             graneles líquidos y sólidos.</p>
-                        <img src="/vectors/liq-solid-bco_ico.svg" alt="logo" width="250">
+                        <img src="/vectors/liq-solid-bco_ico.svg" alt="liq-solid-bco_ico" width="250">
                     </div>
                 </div>
             </div>
-            <!-- <div class="carousel-item">
-                <a href="paginas/masas/scons.html"><img src="/images/camion-arg.jpg" class="image_carousel"
-                        alt="scons"></a>
-                <div class="carousel-caption d-none d-md-block">
-                    <h2 class="titulo_slides">Somos Pamsa y nos especializamos en logística integral de
-                        graneles líquidos y sólidos.</h2>
-                </div>
-            </div> -->
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
@@ -129,43 +114,43 @@
 
     <!-- INTEGRAMOS ETAPAS DE CADENA LOGISTICA -->
     <div class="d-flex flex-column justify-content-center align-items-center wave-background pt-4">
-        <p class="font-xl text-center lh-1 font-msrrt color-tertiary fw-semibold">INTEGRAMOS TODAS LAS ETAPAS DE LA <br />CADENA LOGÍSTICA</p>
+        <p class="font-xl text-center lh-1 font-msrrt color-tertiary fw-semibold">INTEGRAMOS TODAS LAS ETAPAS DE LA
+            <br />CADENA LOGÍSTICA</p>
         <div class="d-flex justify-content-between w-75 mt-3 font-msrrt">
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_rutas.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_rutas.svg" alt="ico-solapa_rutas" width="80">
                 <p class="font-sm pt-2 fw-medium">RUTAS</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_vias.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_vias.svg" alt="ico-solapa_vias" width="80">
                 <p class="font-sm pt-2 fw-medium">VÍAS</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_hidrovia.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_hidrovia.svg" alt="ico-solapa_hidrovia" width="80">
                 <p class="font-sm pt-2 fw-medium">HIDROVÍA</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_océano.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_océano.svg" alt="ico-solapa_océano" width="80">
                 <p class="font-sm pt-2 fw-medium">OCÉANO</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_depo-fiscal.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_depo-fiscal.svg" alt="ico-solapa_depo-fiscal" width="80">
                 <p class="font-sm pt-2 fw-medium">DEPÓSITO FISCAL</p>
             </div>
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_aduana.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_aduana.svg" alt="ico-solapa_aduana" width="80">
                 <p class="font-sm pt-2 fw-medium">ASESORAMIENTO <br />ADUANA/COMEX</p>
             </div>
-            <!-- TO DO falta solapa laboratorio -->
             <div class="d-flex flex-column align-items-center">
-                <img src="/vectors/ico-solapa_océano.svg" alt="etapas-logistica" width="80">
+                <img src="/vectors/ico-solapa_océano.svg" alt="ico-solapa_océano" width="80">
                 <p class="font-sm pt-2 fw-medium ">LABORATORIO</p>
             </div>
         </div>
 
-        <img src="/vectors/img-web-2024_separador.svg" alt="linea-azul" width="700">
+        <img src="/vectors/img-web-2024_separador.svg" alt="img-web-2024_separador" width="700">
 
         <div class="d-flex w-75 mt-5 mb-3 justify-content-evenly">
-            <img src="/vectors/pam_liquidos-txt-azul.svg" alt="linea-azul" width="150">
+            <img src="/vectors/pam_liquidos-txt-azul.svg" alt="pam_liquidos-txt-azul" width="150">
             <div class="text-center lh-1 font-md fw-semibold font-sserif">
                 <p>Graneles líquidos y sólidos.</p>
                 <p>Transporte terrestre.</p>
@@ -174,46 +159,45 @@
                 <p>Laboratorio.</p>
                 <p>Asesoramiento: aduana/comex.</p>
             </div>
-            <img src="/vectors/pam_solido-txt--azul.svg" alt="linea-azul" width="150">
+            <img src="/vectors/pam_solido-txt--azul.svg" alt="pam_solido-txt--azul" width="150">
         </div>
 
         <div class="d-flex justify-content-around w-60 mb-2 font-sm font-msrrt color-primary">
-            <img src="/vectors/pam_liquido-azul.svg" alt="linea-azul" width="50">
+            <img src="/vectors/pam_liquido-azul.svg" alt="pam_liquido-azul" width="50">
             <p class="mb-0">Combustibles</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Alcoholes</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Metanol</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Fertilizantes</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Biodiésel</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Aceites y sebos</p>
-            <img src="/vectors/pam_bulet-liq.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_bulet-liq.svg" alt="pam_bulet-liq" width="30">
             <p class="mb-0">Químicos</p>
         </div>
         <div class="d-flex justify-content-evenly w-50 mb-4 font-sm font-msrrt color-primary">
-            <img src="/vectors/pam_solid-azul.svg" alt="linea-azul" width="30">
+            <img src="/vectors/pam_solid-azul.svg" alt="pam_solid-azul" width="30">
             <p class="mb-0">Azúcar crudo</p>
-            <img src="/vectors/pam_bulet-azul.svg" alt="linea-azul" width="10">
+            <img src="/vectors/pam_bulet-azul.svg" alt="pam_bulet-azul" width="10">
             <p class="mb-0">Harinas</p>
-            <img src="/vectors/pam_bulet-azul.svg" alt="linea-azul" width="10">
+            <img src="/vectors/pam_bulet-azul.svg" alt="pam_bulet-azul" width="10">
             <p class="mb-0">Pellets</p>
-            <img src="/vectors/pam_bulet-azul.svg" alt="linea-azul" width="10">
+            <img src="/vectors/pam_bulet-azul.svg" alt="pam_bulet-azul" width="10">
             <p class="mb-0">Insumos para la minería</p>
-            <img src="/vectors/pam_bulet-azul.svg" alt="linea-azul" width="10">
+            <img src="/vectors/pam_bulet-azul.svg" alt="pam_bulet-azul" width="10">
             <p class="mb-0">Cargas proyecto</p>
         </div>
-
-        <img src="/vectors/pam_convoy.svg" alt="linea-azul" width="1000" class="mb-5">
+        <img src="/vectors/pam_convoy.svg" alt="pam_convoy" width="1000" class="mb-5">
     </div>
 
     <div class="d-flex flex-column align-items-center">
         <!-- NUESTROS SERVICIOS -->
         <div class="d-flex w-100 justify-content-evenly mb-5">
             <div class="lh-1">
-                
+
                 <p class="font-xl fw-semibold mb-4 font-msrrt color-tertiary">
                     <span class="font-lg fw-normal">
                         NUESTROS SERVICIOS:<br />
@@ -223,16 +207,15 @@
                     LOGÍSTICA
                 </p>
 
-
-                <ul class="lh-lg font-sserif">
+                <ul class="lh-lg font-sserif font-md">
                     <li>Transporte terrestre<br>
-                    almacenaje y depósito fiscal</li>
+                        almacenaje y depósito fiscal</li>
                     <li>Operación de buques y barcazas</li>
                     <li>Laboratorio</li>
                     <li>Asesoramiento: aduana/comex</li>
                 </ul>
             </div>
-            <img class="truck-image" src="/images/camiones-planta.jpg" alt="linea-azul" width="500">
+            <img class="truck-image" src="/images/camiones-planta.jpg" alt="camiones-planta" width="500">
         </div>
 
         <!-- MAPA Y BARCO-->
@@ -244,7 +227,7 @@
                 graneles sólidos, en tanto, generamos alianzas <br>
                 estratégicas con terminales especializadas.
             </p>
-            <img src="/images/ilust-hidrovia-pamsa.jpg" alt="linea-azul" width="100%">
+            <img src="/images/ilust-hidrovia-pamsa.jpg" alt="ilust-hidrovia-pamsa" width="100%">
 
         </div>
 
@@ -258,25 +241,23 @@
                     Chile, Argentina, Paraguay<br>
                     y Uruguay.
                 </p>
-                <img src="/vectors/pam_camion-ruta.svg" alt="linea-azul" width="120%">
+                <img src="/vectors/pam_camion-ruta.svg" alt="pam_camion-ruta" width="120%">
             </div>
-            <!-- <div> -->
-            <img src="/images/ilust-mapa-rutas-pamsa.jpg" alt="linea-azul" width="30%">
-            <!-- </div> -->
+            <img src="/images/ilust-mapa-rutas-pamsa.jpg" alt="ilust-mapa-rutas-pamsa" width="30%">
         </div>
 
         <!-- HABILITACION DE TANQUES -->
         <div class="d-flex b-secondary rounded-5 text-light w-60 justify-content-around row p-2 mb-5 ">
-            <img src="/vectors/depo-fiscal_ico.svg" alt="linea-azul" width="12%" class="col-2">
-            <p class="col-9 m-0 font-md ">La habilitación de nuestros tanques como depósito fiscal representa una <br>
+            <img src="/vectors/depo-fiscal_ico.svg" alt="depo-fiscal_ico" width="15%" class="col-2 ps-5">
+            <p class="col-8 m-0 font-md ">La habilitación de nuestros tanques como depósito fiscal representa una <br>
                 ventaja competitiva para atraer a aquellas empresas que quieren operar<br>
                 regionalmente con mercadería en tránsito.
             </p>
         </div>
 
         <!-- 500 MILLONES DE TONELADAS -->
-        <div class="d-flex w-75 align-items-center">
-            <img src="/vectors/500ton_500MT.svg" alt="linea-azul" width="60%">
+        <div class="d-flex w-75 align-items-center justify-content-center">
+            <img src="/vectors/500ton_500MT.svg" alt="500ton_500MT" width="60%">
             <p class="font-xl font-sserif lh-1 ms-3 ">500 millones de toneladas<br>
                 a granel circulan cada <br>
                 año por nuestro país.</p>
@@ -285,50 +266,49 @@
         <!-- FOTOS TANQUES -->
         <div class="d-flex justify-content-between w-75 mb-5">
             <div class="b-relative me-5">
-                <!-- TO DO ver de cambiar fuentes el primero tiene fuente mas grande -->
-                <img src="/images/almacenamiento.jpg" alt="linea-azul" width="100%">
-                <p class="alm-text">
-                    27<br>
+                <img src="/images/almacenamiento.jpg" alt="almacenamiento" width="100%">
+                <p class="alm-text-tanks lh-1 font-msrrt">
+                    <span class="n-tanks">27</span><br>
                     TANQUES
                 </p>
             </div>
             <div class="b-relative">
-                <img src="/images/capacidad-pamsa.jpg" alt="linea-azul" width="100%">
-                <!-- TO DO agregar metros cubicos -->
-                <p class="alm-text lh-1">48.000 M<br>
+                <img src="/images/capacidad-pamsa.jpg" alt="capacidad-pamsa" width="100%">
+                <p class="alm-text-capacity lh-1 font-msrrt">
+                    <span class="c-tanks">48.000 M</span><span class="m3">³</span><br>
                     DE CAPACIDAD<br>
                     DE ALMACENAJE</p>
 
             </div>
         </div>
-        <p class="font-xl text-center font-sserif fw-semibold color-tertiary">Somos parte del corazón productivo de este país, acompañando <br>
+        <p class="font-xl text-center font-sserif fw-semibold color-tertiary">Somos parte del corazón productivo de este
+            país, acompañando <br>
             cada latido desde hace más de 45 años </p>
 
 
         <!-- NUESTROS ACCIONISTAS -->
         <div class="d-flex w-100 justify-content-center">
             <div class="d-flex w-60 justify-content-evenly align-items-center ps-5">
-                <p class="fs-4 font-sserif">Nuestros accionistas</p>
-                <img src="/images/ledesma.jpg" alt="linea-azul" width="15%">
-                <img src="/images/seaboard.jpg" alt="linea-azul" width="25%">
+                <p class="font-lg font-sserif">Nuestros accionistas</p>
+                <img src="/images/ledesma.jpg" alt="ledesma" width="15%">
+                <img src="/images/seaboard.jpg" alt="seaboard" width="25%">
             </div>
-            <img src="/vectors/pam_balbula.svg" alt="linea-azul" width="12%">
+            <img src="/vectors/pam_balbula.svg" alt="pam_balbula" width="12%">
         </div>
 
         <!-- MAPA PAMSA -->
         <div class="w-100 b-relative">
-            <img src="/images/maps-puerto-pamsa.jpg" alt="linea-azul" width="100%">
-            <img src="/vectors/pam_ico-mapa.svg" alt="linea-azul" width="5%" class="ico-map">
+            <img src="/images/maps-puerto-pamsa.jpg" alt="maps-puerto-pamsa" width="100%">
+            <img src="/vectors/pam_ico-mapa.svg" alt="pam_ico-mapa" width="5%" class="ico-map">
         </div>
     </div>
 
 
 
 
-    <!-- <div> -->
     <!-- FOOTER -->
-    <div class="b-l-gray d-flex flex-column align-items-center pt-3">
-        <div class="d-flex justify-content-around w-50 text-light text-footer font-sm font-msrrt">
+    <div class="b-lgray d-flex flex-column align-items-center pt-2">
+        <div class="d-flex justify-content-around w-50 text-light text-footer font-sm font-msrrt my-3">
             <p class="">EMPRESA</p>
             <p class="">TERMINAL</p>
             <p class="">SERVICIOS</p>
@@ -338,32 +318,32 @@
         <hr color="#FF0000" class="w-75 text-light fw-bold">
         <div class="d-flex w-75">
             <div class="d-flex align-items-center flex-column font-sm font-msrrt">
-                <img src="/vectors/ico_rutas-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_rutas-bco.svg" alt="ico_rutas-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">RUTAS</p>
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_vias-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_vias-bco.svg" alt="ico_vias-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">VÍAS</p>
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_hidrovia-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_hidrovia-bco.svg" alt="ico_hidrovia-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">HIDROVÍA</p>
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_oceano-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_oceano-bco.svg" alt="ico_oceano-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">OCÉANO</p>
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_fiscal-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_fiscal-bco.svg" alt="ico_fiscal-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">DEPÓSITO FISCAL</p>
 
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_comex-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_comex-bco.svg" alt="ico_comex-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">ASESORAMIENTO<br> ADUANA/COMEX</p>
             </div>
             <div class="d-flex align-items-center flex-column">
-                <img src="/vectors/ico_laboratorio-bco.svg" alt="logo" width="70%" class="pb-3">
+                <img src="/vectors/ico_laboratorio-bco.svg" alt="ico_laboratorio-bco" width="70%" class="pb-3">
                 <p class="text-light font-sm ">LABORATORIO</p>
             </div>
 
@@ -372,21 +352,12 @@
     </div>
 
     <div class="b-gray d-flex justify-content-between flex-column align-items-center text-nowrap">
-        <div class="d-flex justify-content-evenly align-items-center text-light w-50 py-4">
-            <img src="/vectors/logo-pamsa-bco.svg" alt="logo" width="200">
+        <div class="d-flex justify-content-evenly align-items-center text-light w-50 py-5">
+            <img src="/vectors/logo-pamsa-bco.svg" alt="logo-pamsa-bco" width="200">
             <p class="font-sm">PAMSA S.A. 2017 - TODOS LOS DERECHOS RESERVADOS</p>
         </div>
-        <img src="/vectors/ico_linea-final.svg" alt="linea-azul">
+        <img src="/vectors/ico_linea-final.svg" alt="ico_linea-final">
     </div>
-
-
-
-    <!-- </div> -->
-    <!-- <div> -->
-    <!-- </div> -->
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-1BmE4kWBq78iYhFldvZmY6Urg6U9Y4Mg2z8gY5RnUZ7g/E8lXmYiJhDk/ckM1f7r"
