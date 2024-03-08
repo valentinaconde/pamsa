@@ -135,7 +135,7 @@
 
 .wave-background {
   background-image: url("../images/bg-agua.jpg");
-  background-size: contain;
+  background-repeat: repeat-x;
 }
 
 .alm-text-tanks, .alm-text-capacity {
@@ -178,6 +178,13 @@
 
 .text-footer {
   height: 20px;
+}
+
+@media (min-width: 1570px) {
+  .wave-background {
+    background-repeat: unset;
+    background-size: contain;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

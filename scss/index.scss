@@ -139,7 +139,8 @@
 
 .wave-background {
     background-image: url("../images/bg-agua.jpg");
-    background-size: contain;
+    // background-size: contain;
+    background-repeat: repeat-x;
 
 }
 
@@ -186,6 +187,9 @@ font-size: 8vw;
 }
 
 
-
-
-
+@media (min-width: 1570px){
+    .wave-background {
+    background-repeat: unset;
+        background-size: contain;
+    }
+}
