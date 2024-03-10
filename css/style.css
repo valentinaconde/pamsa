@@ -171,6 +171,7 @@
 
 .wave-background {
   background-image: url("../public/images/bg-agua.jpg");
+  background-size: cover;
   background-repeat: repeat-x;
 }
 
