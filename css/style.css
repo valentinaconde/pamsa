@@ -43,8 +43,44 @@
   color: #0040A6;
 }
 
+.color-fourth {
+  color: #71D2FD;
+}
+
+.color-fifth {
+  color: #A2E3F4;
+}
+
+.color-sixth {
+  color: #F2F9FB;
+}
+
+.color-lgrey {
+  color: #8F8F8F;
+}
+
+.b-primary {
+  background-color: #1C3F81 !important;
+}
+
 .b-secondary {
   background-color: #2276BB !important;
+}
+
+.b-tertiary {
+  background-color: #0040A6 !important;
+}
+
+.b-fourth {
+  background-color: #71D2FD !important;
+}
+
+.b-fifth {
+  background-color: #A2E3F4 !important;
+}
+
+.b-sixth {
+  background-color: #F2F9FB !important;
 }
 
 .b-relative {
@@ -185,6 +221,17 @@
     background-repeat: unset;
     background-size: contain;
   }
+}
+.chile-map-text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.uruguay-map-text {
+  position: absolute;
+  top: 10%;
+  right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

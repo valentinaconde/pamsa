@@ -45,8 +45,44 @@
     color: $tertiary-color;
 }
 
+.color-fourth {
+    color: $fourth-color;
+}
+
+.color-fifth {
+    color: $fifth-color;
+}
+
+.color-sixth {
+    color: $sixth-color;
+}
+
+.color-lgrey {
+    color: $light-gray;
+}
+
+.b-primary{
+    background-color: $primary-color !important;
+}
+
 .b-secondary {
     background-color: $secondary-color !important;
+}
+
+.b-tertiary {
+    background-color: $tertiary-color !important;
+}
+
+.b-fourth {
+    background-color: $fourth-color !important;
+}
+
+.b-fifth {
+    background-color: $fifth-color !important;
+}
+
+.b-sixth {
+    background-color: $sixth-color !important;
 }
 
 .b-relative {
