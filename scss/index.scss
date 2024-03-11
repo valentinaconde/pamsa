@@ -24,6 +24,10 @@
     font-size: 3vw;
 }
 
+.font-xxxl {
+    font-size: 4vw;
+}
+
 .font-msrrt {
     font-family: $font-family-montserrat;
 }
@@ -91,6 +95,14 @@
 
 .b-sixth {
     background-color: $sixth-color !important;
+}
+
+.b-seventh {
+    background-color: $seventh-color !important;
+}
+
+.b-eighth {
+    background-color: $eighth-color !important;
 }
 
 .b-relative {
