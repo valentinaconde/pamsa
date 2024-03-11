@@ -22,6 +22,10 @@
   font-size: 3vw;
 }
 
+.font-xxxl {
+  font-size: 4vw;
+}
+
 .font-msrrt {
   font-family: "Montserrat", sans-serif;
 }
@@ -89,6 +93,14 @@
 
 .b-sixth {
   background-color: #F2F9FB !important;
+}
+
+.b-seventh {
+  background-color: #ECF5F9 !important;
+}
+
+.b-eighth {
+  background-color: #F8F8F8 !important;
 }
 
 .b-relative {
@@ -241,6 +253,23 @@
   position: absolute;
   top: 10%;
   right: 5%;
+}
+
+.terminal-slides-text {
+  height: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
+.ubication-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
