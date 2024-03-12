@@ -209,8 +209,8 @@
 
     <div class="d-flex flex-column align-items-center">
         <!-- NUESTROS SERVICIOS -->
-        <div class="d-flex w-100 justify-content-evenly mb-5">
-            <div class="lh-1">
+        <div class="d-flex w-75 justify-content-evenly mb-5">
+            <div class="lh-1 w-50">
 
                 <p class="font-xl fw-semibold mb-4 font-msrrt color-tertiary">
                     <span class="font-lg fw-normal">
@@ -222,15 +222,28 @@
                 </p>
 
                 <ul class="lh-lg font-sserif font-md">
-                    <li>Transporte terrestre<br>
-                        almacenaje y depósito fiscal</li>
+                    <li>Transporte terrestre</li>
+                    <li>Almacenaje y depósito fiscal</li>
                     <li>Operación de buques y barcazas</li>
                     <li>Laboratorio</li>
                     <li>Asesoramiento: aduana/comex</li>
                 </ul>
             </div>
-            <div class="d-flex flex-column">
-                <img class="truck-image" src="./public/images/camiones-planta.jpg" alt="camiones-planta" width="500">
+            <div class="d-flex flex-column w-50">
+                <div id="truck-carousel" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./public/images/camiones-planta.jpg" class="image_carousel" alt="camion">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./public/images/camiones-planta.jpg" class="image_carousel" alt="camion">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="./public/images/camiones-planta.jpg" class="image_carousel" alt="camion">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="d-flex justify-content-center pt-1">
                     <img src="./public/images/vectors/pam_bulet-azul.svg" class="pe-2" alt="pam_bulet-azul" width="20">
                     <img src="./public/images/vectors/pam_bulet-azul.svg" class="pe-2" alt="pam_bulet-azul" width="20">
@@ -244,7 +257,7 @@
 
         <!-- MAPA Y BARCO-->
         <div class="b-relative">
-            <p class="chile-map-text font-lg  font-sserif">
+            <p class="map-text font-lg  font-sserif">
                 Operamos graneles líquidos desde nuestra <br>
                 propia terminal, de ubicación estratégica en el <br>
                 <strong>kilómetro 343 de la Hidrovía</strong>. Para los <br>
