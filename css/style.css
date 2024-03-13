@@ -255,25 +255,9 @@
   right: 5%;
 }
 
-.terminal-slides-text {
-  height: 100%;
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: start;
-  width: 100%;
-  height: 100%;
-}
-
-.ubication-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-}
-
 .list {
   list-style-type: none;
 }
+
 
 /*# sourceMappingURL=style.css.map */
