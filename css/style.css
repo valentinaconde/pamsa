@@ -260,20 +260,20 @@
 }
 
 .terminal-slides-text {
-  height: 100%;
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: start;
-  width: 100%;
-  height: 100%;
+    height: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    height: 100%;
 }
 
 .ubication-text {
-  position: absolute;
-  top: 30%;
-  left: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
