@@ -71,6 +71,10 @@
   color: #8F8F8F;
 }
 
+.color-green {
+  color: #27745C;
+}
+
 .b-primary {
   background-color: #1C3F81 !important;
 }
@@ -237,6 +241,17 @@
   height: 20px;
 }
 
+.pages-slides-text {
+  height: 100%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 1570px) {
   .wave-background {
     background-repeat: unset;
@@ -259,21 +274,26 @@
   list-style-type: none;
 }
 
-.terminal-slides-text {
-    height: 100%;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    width: 100%;
-    height: 100%;
+.ubication-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
 }
 
-.ubication-text {
-    position: absolute;
-    top: 30%;
-    left: 50%;
+.line-image {
+  position: absolute;
+  top: 50%;
+}
+
+.lab-icon {
+  height: 100%;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 80%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
