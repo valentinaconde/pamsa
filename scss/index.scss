@@ -73,6 +73,10 @@
     color: $light-gray;
 }
 
+.color-green{
+    color: $green;
+}
+
 .b-primary{
     background-color: $primary-color !important;
 }
@@ -240,6 +244,19 @@ font-size: 8vw;
 .text-footer {
     height: 20px;
 }
+
+.pages-slides-text {
+    height: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 @media (min-width: 1570px){
