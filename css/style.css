@@ -1,29 +1,29 @@
 .font-sm {
-  font-size: 0.8vw;
+  font-size: 12px;
 }
 
 .font-md {
-  font-size: 1vw;
+  font-size: 14px;
 }
 
 .font-mdx {
-  font-size: 1.2vw;
+  font-size: 16px;
 }
 
 .font-lg {
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 .font-xl {
-  font-size: 2vw;
+  font-size: 25px;
 }
 
 .font-xxl {
-  font-size: 3vw;
+  font-size: 45px;
 }
 
 .font-xxxl {
-  font-size: 4vw;
+  font-size: 60px;
 }
 
 .font-msrrt {
@@ -199,30 +199,31 @@
   background-repeat: repeat-x;
 }
 
-.alm-text-tanks, .alm-text-capacity {
+.alm-text-tanks,
+.alm-text-capacity {
   position: absolute;
   top: 40%;
   left: 10%;
   color: white;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 60px;
 }
 
 .alm-text-capacity {
   text-shadow: 2px 2px 4px #000000;
-  font-size: 3vw;
+  font-size: 40px;
 }
 
 .n-tanks {
-  font-size: 8vw;
+  font-size: 120px;
 }
 
 .c-tanks {
-  font-size: 5vw;
+  font-size: 70px;
 }
 
 .m3 {
-  font-size: 5vw;
+  font-size: 80px;
 }
 
 .map-text {
@@ -252,7 +253,93 @@
   height: 100%;
 }
 
+@media (max-width: 760px) {
+  .font-sm {
+    font-size: 10px;
+  }
+  .font-md {
+    font-size: 12px;
+  }
+  .font-mdx {
+    font-size: 14px;
+  }
+  .font-lg {
+    font-size: 18px;
+  }
+  .font-xl {
+    font-size: 20px;
+  }
+  .font-xxl {
+    font-size: 25px;
+  }
+  .font-xxxl {
+    font-size: 50px;
+  }
+  .alm-text-tanks,
+  .alm-text-capacity {
+    font-size: 20px;
+  }
+  .alm-text-capacity {
+    font-size: 14px;
+  }
+  .n-tanks {
+    font-size: 40px;
+  }
+  .c-tanks {
+    font-size: 20px;
+  }
+  .m3 {
+    font-size: 20px;
+  }
+  .w-sm {
+    width: 75% !important;
+  }
+  .map-text {
+    position: inherit;
+    left: 0;
+  }
+  .w-footer-icons {
+    width: 30px;
+  }
+}
 @media (min-width: 1570px) {
+  .font-sm {
+    font-size: 16px;
+  }
+  .font-md {
+    font-size: 18px;
+  }
+  .font-mdx {
+    font-size: 24px;
+  }
+  .font-lg {
+    font-size: 30px;
+  }
+  .font-xl {
+    font-size: 35px;
+  }
+  .font-xxl {
+    font-size: 47px;
+  }
+  .font-xxxl {
+    font-size: 80px;
+  }
+  .alm-text-tanks,
+  .alm-text-capacity {
+    font-size: 80px;
+  }
+  .alm-text-capacity {
+    font-size: 60px;
+  }
+  .n-tanks {
+    font-size: 150px;
+  }
+  .c-tanks {
+    font-size: 100px;
+  }
+  .m3 {
+    font-size: 100px;
+  }
   .wave-background {
     background-repeat: unset;
     background-size: contain;
