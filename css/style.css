@@ -71,6 +71,10 @@
   color: #8F8F8F;
 }
 
+.color-gray {
+  color: #6E6E6E;
+}
+
 .color-green {
   color: #27745C;
 }
@@ -105,6 +109,10 @@
 
 .b-eighth {
   background-color: #F8F8F8 !important;
+}
+
+.b-ninth {
+  background-color: #F5F4EF !important;
 }
 
 .b-relative {

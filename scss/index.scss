@@ -73,6 +73,10 @@
     color: $light-gray;
 }
 
+.color-gray{
+    color: $gray; 
+}
+
 .color-green {
     color: $green;
 }
@@ -107,6 +111,10 @@
 
 .b-eighth {
     background-color: $eighth-color !important;
+}
+
+.b-ninth {
+    background-color: $ninth-color !important;
 }
 
 .b-relative {
