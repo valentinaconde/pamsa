@@ -10,6 +10,7 @@
     <meta name="keywords" content="">
 
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -119,11 +120,11 @@
 
 
         <div class="w-75 mb-5">
-            <div class=" d-flex align-items-center">
+            <div class=" d-flex align-items-center" data-aos="fade-right">
                 <img src="../public/images/vectors/pam_solido-neg.svg" alt="pam_solido-neg" width="150">
                 <p class="font-xxl font-sserif fw-medium  ps-4">Comercio Exterior</p>
             </div>
-            <p class="font-lg fw-normal font-msrrt mt-2">Orientamos a aquellos clientes que prefieren tercerizar
+            <p class="font-lg fw-normal font-msrrt mt-2" data-aos="fade-left">Orientamos a aquellos clientes que prefieren tercerizar
                 cuestiones de comercio exterior (importación, exportación, nuevos mercados), y la gestión de documentos
                 y trámites de aduana.</p>
         </div>
@@ -195,7 +196,11 @@
 
     </footer>
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>  AOS.init({
+            duration: 600,
+            delay: 100,
+        }); </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-1BmE4kWBq78iYhFldvZmY6Urg6U9Y4Mg2z8gY5RnUZ7g/E8lXmYiJhDk/ckM1f7r"
         crossorigin="anonymous"></script>
