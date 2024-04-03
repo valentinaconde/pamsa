@@ -22,7 +22,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
         rel="stylesheet">
-</head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
 
 <body>
     <header>
@@ -165,7 +166,7 @@
             <img src="./public/images/vectors/img-web-2024_separador.svg" alt="img-web-2024_separador" width="700">
 
             <div class="d-flex w-75 mt-5 mb-3 justify-content-evenly">
-                <img src="./public/images/vectors/pam_liquidos-txt-azul.svg" alt="pam_liquidos-txt-azul" width="150">
+                <img src="./public/images/vectors/pam_liquidos-txt-azul.svg"  data-aos="fade-right" alt="pam_liquidos-txt-azul" width="150">
                 <div class="text-center lh-1 font-md fw-semibold font-sserif">
                     <p>Graneles líquidos y sólidos.</p>
                     <p>Transporte terrestre.</p>
@@ -174,7 +175,7 @@
                     <p>Laboratorio.</p>
                     <p>Asesoramiento: aduana/comex.</p>
                 </div>
-                <img src="./public/images/vectors/pam_solido-txt--azul.svg" alt="pam_solido-txt--azul" width="150">
+                <img src="./public/images/vectors/pam_solido-txt--azul.svg" data-aos="fade-left" alt="pam_solido-txt--azul" width="150">
             </div>
 
             <div class="d-flex justify-content-around w-60 mb-2 font-sm font-msrrt color-primary">
@@ -277,17 +278,17 @@
 
             <!-- MAPA CAMION -->
             <div class="d-flex justify-content-center w-100 mb-5">
-                <div class="d-flex flex-column me-5">
-                    <p class="font-xxl font-sserif">
+                <div class="d-flex flex-column me-5" >
+                    <p class="font-xxl font-sserif" >
                         <strong>Por vía terrestre</strong><br>
                         impulsamos el intercambio<br>
                         regional entre Bolivia, <br>
                         Chile, Argentina, Paraguay<br>
                         y Uruguay.
                     </p>
-                    <img src="./public/images/vectors/pam_camion-ruta.svg" alt="pam_camion-ruta" width="120%">
+                    <img src="./public/images/vectors/pam_camion-ruta.svg"  alt="pam_camion-ruta" width="120%">
                 </div>
-                <img src="./public/images/ilust-mapa-rutas-pamsa.jpg" alt="ilust-mapa-rutas-pamsa" width="30%">
+                <img src="./public/images/ilust-mapa-rutas-pamsa.jpg"  alt="ilust-mapa-rutas-pamsa" width="30%">
             </div>
 
             <!-- HABILITACION DE TANQUES -->
@@ -311,14 +312,14 @@
 
             <!-- FOTOS TANQUES -->
             <div class="d-flex justify-content-between w-75 mb-5">
-                <div class="b-relative me-5">
+                <div class="b-relative me-5" data-aos="fade-right">
                     <img src="./public/images/almacenamiento.jpg" alt="almacenamiento" width="100%">
                     <p class="alm-text-tanks lh-1 font-msrrt">
                         <span class="n-tanks">27</span><br>
                         TANQUES
                     </p>
                 </div>
-                <div class="b-relative">
+                <div class="b-relative" data-aos="fade-left">
                     <img src="./public/images/capacidad-pamsa.jpg" alt="capacidad-pamsa" width="100%">
                     <p class="alm-text-capacity lh-1 font-msrrt">
                         <span class="c-tanks">48.000 M</span><span class="m3">³</span><br>
@@ -413,4 +414,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-1BmE4kWBq78iYhFldvZmY6Urg6U9Y4Mg2z8gY5RnUZ7g/E8lXmYiJhDk/ckM1f7r"
         crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>  AOS.init(); </script>
 </body>

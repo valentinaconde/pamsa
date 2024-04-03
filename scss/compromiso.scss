@@ -1,8 +1,11 @@
 .ambiente-text{
     position: absolute;
     top: 5%;
-    left: 10%;
-    width: 50%;
+    left: 5%;
+    min-width: 60%;
+    max-width: 60%;
+    max-height: 90%;
+    min-height: 90%;
 }
 
 .circle-text{
