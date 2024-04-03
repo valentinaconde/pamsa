@@ -265,14 +265,14 @@
 
             <!-- MAPA Y BARCO-->
             <div class="b-relative">
-                <p class="map-text font-lg  font-sserif">
+                <p class="map-text font-lg text-center font-sserif" data-aos="zoom-in">
                     Operamos graneles líquidos desde nuestra <br>
                     propia terminal, de ubicación estratégica en el <br>
                     <strong>kilómetro 343 de la Hidrovía</strong>. Para los <br>
                     graneles sólidos, en tanto, generamos alianzas <br>
                     estratégicas con terminales especializadas.
                 </p>
-                <img src="./public/images/ilust-hidrovia-pamsa.jpg" alt="ilust-hidrovia-pamsa" width="100%">
+                <img src="./public/images/ilust-hidrovia-pamsa.jpg" alt="ilust-hidrovia-pamsa" width="100%" >
 
             </div>
 
@@ -288,11 +288,11 @@
                     </p>
                     <img src="./public/images/vectors/pam_camion-ruta.svg"  alt="pam_camion-ruta" width="120%">
                 </div>
-                <img src="./public/images/ilust-mapa-rutas-pamsa.jpg"  alt="ilust-mapa-rutas-pamsa" width="30%">
+                <img src="./public/images/ilust-mapa-rutas-pamsa.jpg"  alt="ilust-mapa-rutas-pamsa" width="30%" >
             </div>
 
             <!-- HABILITACION DE TANQUES -->
-            <div class="d-flex b-secondary rounded-5 text-light w-60 justify-content-around row p-2 mb-5 ">
+            <div class="d-flex b-secondary rounded-5 text-light w-60 justify-content-around row p-2 mb-5 " data-aos="fade-right">
                 <img src="./public/images/vectors/depo-fiscal_ico.svg" alt="depo-fiscal_ico" width="15%"
                     class="col-3 ps-5">
                 <p class="col-8 m-0 font-md ">La habilitación de nuestros tanques como depósito fiscal representa una
@@ -412,7 +412,10 @@
     </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>  AOS.init(); </script>
+    <script>  AOS.init({
+            duration: 600,
+            delay: 100,
+        }); </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-1BmE4kWBq78iYhFldvZmY6Urg6U9Y4Mg2z8gY5RnUZ7g/E8lXmYiJhDk/ckM1f7r"
         crossorigin="anonymous"></script>
