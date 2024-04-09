@@ -18,8 +18,17 @@
     width: 300px;
 }
 
+.direc-maps{
+    width: 49%;
+}
+
 @media (max-width: 768px) {
     .logo-pamsa-bco{
         width: 200px;
     }
+    .direc-maps{
+        width: 90%;
+    }
+
+   
 }
