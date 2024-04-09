@@ -309,6 +309,11 @@
     width: 12%;
 }
 
+.medium-width {
+    width: 50%;
+}
+
+
 
 
 
@@ -436,6 +441,10 @@
     .carousel-control-prev-icon {
         width: 30px !important;
         height: 30px !important;
+    }
+    
+    .medium-width {
+        width: 95%;
     }
     
 

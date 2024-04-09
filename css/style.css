@@ -305,6 +305,10 @@
   width: 12%;
 }
 
+.medium-width {
+  width: 50%;
+}
+
 @media (max-width: 768px) {
   .font-sm {
     font-size: 10px;
@@ -405,6 +409,9 @@
   .carousel-control-prev-icon {
     width: 30px !important;
     height: 30px !important;
+  }
+  .medium-width {
+    width: 95%;
   }
 }
 @media (min-width: 1570px) {
@@ -512,6 +519,15 @@
   list-style-type: none;
 }
 
+.logo-pamsa-bco {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .logo-pamsa-bco {
+    width: 200px;
+  }
+}
 .ubication-text {
   position: absolute;
   top: 30%;
@@ -582,14 +598,7 @@
   left: 30%;
 }
 
-.medium-width {
-  width: 50%;
-}
-
 @media (max-width: 768px) {
-  .medium-width {
-    width: 100%;
-  }
   .ambiente-text {
     position: inherit;
     min-width: 100%;
