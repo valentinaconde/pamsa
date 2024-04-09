@@ -323,16 +323,16 @@
     font-size: 16px;
   }
   .font-xl {
-    font-size: 17px;
+    font-size: 16px;
   }
   .font-xxl {
     font-size: 22px;
   }
   .font-xxxl {
-    font-size: 40px;
+    font-size: 30px;
   }
   .font-carousel {
-    font-size: 10px;
+    font-size: 12px;
   }
   .alm-text-tanks {
     font-size: 40px;
@@ -523,9 +523,16 @@
   width: 300px;
 }
 
+.direc-maps {
+  width: 49%;
+}
+
 @media (max-width: 768px) {
   .logo-pamsa-bco {
     width: 200px;
+  }
+  .direc-maps {
+    width: 90%;
   }
 }
 .ubication-text {
@@ -536,20 +543,26 @@
 
 .terminal-icons-container {
   border-right: 1px solid #8F8F8F;
-  height: 200px;
+  height: 220px;
+  width: 280px;
 }
 
 .maps2-puerto-pamsa {
   width: 500px;
 }
 
+.terminal-icons-image {
+  height: 100px !important;
+}
+
 @media (max-width: 1130px) {
   .terminal-icons-container {
     border: none !important;
-    width: 120px;
+    height: 150px;
+    width: 200px;
   }
   .terminal-icons-image {
-    width: 50px;
+    height: 70px !important;
   }
 }
 @media (max-width: 768px) {
@@ -612,7 +625,12 @@
 
 @media (max-width: 768px) {
   .mapa-solapa-rutas {
-    width: 90%;
+    width: 60%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .mapa-solapa-rutas {
+    width: 300px;
   }
 }
 .contact-container {

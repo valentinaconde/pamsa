@@ -8,22 +8,31 @@
 .terminal-icons-container{
     // border only end 
     border-right: 1px solid $light-gray;
-    height: 200px;
+    height: 220px;
+    width: 280px;
 }
 
 .maps2-puerto-pamsa{
     width: 500px;
 }
+
+
+.terminal-icons-image{
+    height: 100px !important;
+    
+}
+
 @media (max-width: 1130px) {
     .terminal-icons-container{
         border: none !important;
-        width: 120px;
-        // quiero editar la imagen dentro del container
-
+        height: 150px;
+        width: 200px;
     }
     .terminal-icons-image{
-        width: 50px;
+        height: 70px !important;
+        
     }
+    
 }
 
 @media (max-width: 768px) {
