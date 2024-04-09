@@ -14,16 +14,10 @@
     left: 30%;
 }
 
-.medium-width {
-    width: 50%;
-}
 
 
 @media (max-width: 768px) {
 
-    .medium-width {
-        width: 100%;
-    }
 
     .ambiente-text {
         position: inherit;
@@ -31,4 +25,8 @@
         min-height: 100%;
         left: 0;
     }
+
+    // .circle-text {
+    //     font-size: 12px;
+    // }
 }

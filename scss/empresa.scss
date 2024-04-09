@@ -13,3 +13,13 @@
 .list{
     list-style-type: none;
 }
+
+.logo-pamsa-bco{
+    width: 300px;
+}
+
+@media (max-width: 768px) {
+    .logo-pamsa-bco{
+        width: 200px;
+    }
+}
