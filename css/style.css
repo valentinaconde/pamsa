@@ -319,13 +319,13 @@
     font-size: 16px;
   }
   .font-xl {
-    font-size: 20px;
+    font-size: 17px;
   }
   .font-xxl {
-    font-size: 25px;
+    font-size: 22px;
   }
   .font-xxxl {
-    font-size: 50px;
+    font-size: 40px;
   }
   .font-carousel {
     font-size: 10px;
@@ -401,6 +401,11 @@
   .navbar-toggler {
     border: none !important;
   }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
 @media (min-width: 1570px) {
   .font-sm {
@@ -416,13 +421,13 @@
     font-size: 30px;
   }
   .font-xl {
-    font-size: 35px;
+    font-size: 33px;
   }
   .font-xxl {
     font-size: 47px;
   }
   .font-xxxl {
-    font-size: 80px;
+    font-size: 55px;
   }
   .alm-text-tanks {
     font-size: 70px;
@@ -513,13 +518,40 @@
   left: 50%;
 }
 
+.terminal-icons-container {
+  border-right: 1px solid #8F8F8F;
+  height: 200px;
+}
+
+.maps2-puerto-pamsa {
+  width: 500px;
+}
+
+@media (max-width: 1130px) {
+  .terminal-icons-container {
+    border: none !important;
+    width: 120px;
+  }
+  .terminal-icons-image {
+    width: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .ubication-text {
+    position: inherit;
+    left: 0;
+    text-align: center;
+  }
+  .maps2-puerto-pamsa {
+    width: 80%;
+  }
+}
 .line-image {
   position: absolute;
   top: 50%;
 }
 
 .lab-icon {
-  height: 100%;
   text-align: end;
   display: flex;
   flex-direction: column;
@@ -529,6 +561,11 @@
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .lab-icon {
+    width: 70%;
+  }
+}
 .ambiente-text {
   position: absolute;
   top: 5%;
@@ -543,6 +580,40 @@
   position: absolute;
   top: 12%;
   left: 30%;
+}
+
+.medium-width {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .medium-width {
+    width: 100%;
+  }
+  .ambiente-text {
+    position: inherit;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+  }
+}
+.mapa-solapa-rutas {
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .mapa-solapa-rutas {
+    width: 90%;
+  }
+}
+.contact-container {
+  width: 45%;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
