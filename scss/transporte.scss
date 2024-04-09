@@ -1,0 +1,9 @@
+.mapa-solapa-rutas{
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+    .mapa-solapa-rutas{
+        width: 90%;
+    }
+}

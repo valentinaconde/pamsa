@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="overflow-x-hidden">
 
 <head>
     <title> Pamsa </title>
@@ -26,15 +26,15 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../public/images/vectors/logo-pamsa-bco.svg" alt="logo-pamsa-bco" width="150" height="80">
+                <a class="navbar-brand d-none d-md-block" href="../index.html" >
+                    <img src="../public/images/vectors/logo-pamsa-bco.svg"  alt="logo" width="150" height="80">
                 </a>
-                <div class="w-50">
+                <div class="navbar-styles">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -42,20 +42,20 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav font-msrrt w-100">
+                            <a class="nav-link d-block d-md-none" href="../index.html">INICIO</a>
                             <a class="nav-link" aria-current="page" href="./empresa.html">EMPRESA</a>
                             <div class="nav-item dropdown ">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle text-center" role="button" id="navbarDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     SERVICIO
                                 </a>
                                 <div class="dropdown-menu d-styles p-2" aria-labelledby="navbarDropdown"
                                     data-bs-auto-close="outside">
-                                    <div class="d-flex">
+                                    <div class="d-flex service-dropdown flex-md-row flex-column">
                                         <div class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm"
                                                 href="./terminal.html">TERMINAL
                                                 LÍQUIDOS/ALMACENAJE</a>
-                                            <a class="dropdown-item  fw-medium d-item font-sm"
-                                                href="./laboratorio.html">LABORATORIO</a>
+                                            <a class="dropdown-item  fw-medium d-item font-sm" href="./laboratorio.html">LABORATORIO</a>
                                         </div>
                                         <div class="pe-4"><a class="dropdown-item  fw-medium d-item font-sm"
                                                 href="./transporte.html">TRANSPORTE
@@ -66,7 +66,6 @@
                                         <div><a class="dropdown-item  fw-medium d-item font-sm" href="./comex.html">COMEX</a></div>
                                     </div>
                                 </div>
-
                             </div>
                             <a class="nav-link" href="./compromiso.html">COMPROMISO</a>
                             <a class="nav-link" href="./contacto.html">CONTACTO</a>
@@ -92,7 +91,7 @@
                             alt="camion-rutas-pamsa">
                         <div class="carousel-caption p-0 ms-5">
                             <div class="pages-slides-text font-msrrt">
-                                <p class="font-xl fw-bold text-light m-0 ms-5">Transporte terrestre</p>
+                                <p class="font-carousel fw-bold text-light m-md-0 ms-md-5 m-0 ">Transporte terrestre</p>
                             </div>
                         </div>
                     </div>
@@ -101,7 +100,7 @@
                             alt="camion-rutas-pamsa">
                         <div class="carousel-caption p-0 ms-5">
                             <div class="pages-slides-text font-msrrt">
-                                <p class="font-xl fw-bold text-light m-0 ms-5">Transporte terrestre</p>
+                                <p class="font-carousel fw-bold text-light m-md-0 ms-md-5 m-0 ">Transporte terrestre</p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +134,7 @@
             </div>
         </div>
 
-        <div class="b-ninth w-100 d-flex align-items-center justify-content-around">
+        <div class="b-ninth w-100 d-flex align-items-center justify-content-around flex-wrap">
             <div>
                 <p class="font-xxl font-sserif">
                     <strong>Por vía terrestre</strong><br>
@@ -146,7 +145,7 @@
                 </p>
                 <img src="../public/images/vectors/pam_camion-ruta.svg" alt="pam_camion-ruta">
             </div>
-            <img src="../public/images/mapa-solapa-rutas.png" alt="mapa-solapa-rutas" data-aos="fade-left">
+            <img src="../public/images/mapa-solapa-rutas.png" alt="mapa-solapa-rutas" class="mapa-solapa-rutas" data-aos="fade-left">
         </div>
 
         <img src="../public/images/transporte-liquid-solidos-pamsa.jpg" alt="transporte-liquid-solidos-pamsa-final" class="w-100">
@@ -156,64 +155,59 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="b-lgray d-flex flex-column align-items-center pt-3">
-            <div class="d-flex justify-content-around w-50 text-light text-footer font-sm font-msrrt">
-                <a class="text-light text-decoration-none" href="./empresa.html">EMPRESA</a>
-                <a class="text-light text-decoration-none" href="./terminal.html">SERVICIOS</a>
-                <a class="text-light text-decoration-none" href="./laboratorio.html">LABORATORIO</a>
-                <a class="text-light text-decoration-none" href="./compromiso.html">COMPROMISO</a>
-                <a class="text-light text-decoration-none" href="./contacto.html">CONTACTO</a>
+        <div class="b-lgray d-flex flex-column align-items-center pt-3 ">
+            <div class="d-flex justify-content-around text-light text-footer font-sm font-msrrt w-50">
+                <a class="text-light text-decoration-none mb-3 mb-md-0" href="./empresa.html">EMPRESA</a>
+                <a class="text-light text-decoration-none mb-3 mb-md-0" href="./terminal.html">SERVICIOS</a>
+                <a class="text-light text-decoration-none mb-3 mb-md-0" href="./laboratorio.html">LABORATORIO</a>
+                <a class="text-light text-decoration-none mb-3 mb-md-0" href="./compromiso.html">COMPROMISO</a>
+                <a class="text-light text-decoration-none mb-3 mb-md-0" href="./contacto.html">CONTACTO</a>
             </div>
             <hr color="#FF0000" class="w-75 text-light fw-bold">
-            <div class="d-flex w-75">
-                <div class="d-flex align-items-center flex-column font-sm font-msrrt">
+            <div class="d-flex w-75 flex-md-nowrap flex-wrap">
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
                     <img src="../public/images/vectors/ico_rutas-bco.svg" alt="ico_rutas-bco" width="70%" class="pb-3">
-                    <p class="text-light font-sm ">RUTAS</p>
+                    <p class="text-light font-sm  text-center">RUTAS</p>
                 </div>
-                <div class="d-flex align-items-center flex-column">
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
                     <img src="../public/images/vectors/ico_vias-bco.svg" alt="ico_vias-bco" width="70%" class="pb-3">
-                    <p class="text-light font-sm ">VÍAS</p>
+                    <p class="text-light font-sm  text-center">VÍAS</p>
                 </div>
-                <div class="d-flex align-items-center flex-column">
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
                     <img src="../public/images/vectors/ico_hidrovia-bco.svg" alt="ico_hidrovia-bco" width="70%"
                         class="pb-3">
-                    <p class="text-light font-sm ">HIDROVÍA</p>
+                    <p class="text-light font-sm text-center ">HIDROVÍA</p>
                 </div>
-                <div class="d-flex align-items-center flex-column">
-                    <img src="../public/images/vectors/ico_oceano-bco.svg" alt="ico_oceano-bco" width="70%"
-                        class="pb-3">
-                    <p class="text-light font-sm ">OCÉANO</p>
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
+                    <img src="../public/images/vectors/ico_oceano-bco.svg" alt="ico_oceano-bco" width="70%" class="pb-3">
+                    <p class="text-light font-sm text-center ">OCÉANO</p>
                 </div>
-                <div class="d-flex align-items-center flex-column">
-                    <img src="../public/images/vectors/ico_fiscal-bco.svg" alt="ico_fiscal-bco" width="70%"
-                        class="pb-3">
-                    <p class="text-light font-sm ">DEPÓSITO FISCAL</p>
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
+                    <img src="../public/images/vectors/ico_fiscal-bco.svg" alt="ico_fiscal-bco" width="70%" class="pb-3">
+                    <p class="text-light font-sm text-center">DEPÓSITO FISCAL</p>
 
                 </div>
-                <div class="d-flex align-items-center flex-column">
-                    <img src="../public/images/vectors/ico_comex-bco.svg" alt="ico_comex-bco" width="70%" class="pb-3">
-                    <p class="text-light font-sm ">ASESORAMIENTO<br> ADUANA/COMEX</p>
-                </div>
-                <div class="d-flex align-items-center flex-column">
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items">
                     <img src="../public/images/vectors/ico_laboratorio-bco.svg" alt="ico_laboratorio-bco" width="70%"
-                        class="pb-3">
-                    <p class="text-light font-sm ">LABORATORIO</p>
+                    class="pb-3">
+                    <p class="text-light font-sm text-center ">LABORATORIO</p>
                 </div>
-
+                <div class="d-flex align-items-center flex-column font-sm font-msrrt footer-items ms-3 ms-md-0">
+                    <img src="../public/images/vectors/ico_comex-bco.svg" alt="ico_comex-bco" width="70%" class="pb-3">
+                    <p class="text-light font-sm text-center ">ASESORAMIENTO<br> ADUANA/COMEX</p>
+                </div>
+                
             </div>
 
         </div>
 
-        <div class="b-gray d-flex justify-content-between flex-column align-items-center text-nowrap">
-            <div class="d-flex justify-content-evenly align-items-center text-light w-50 py-4">
+        <div class="b-gray d-flex justify-content-between flex-column align-items-center">
+            <div class="d-flex justify-content-evenly align-items-center text-light w-50 py-4 flex-wrap">
                 <img src="../public/images/vectors/logo-pamsa-bco.svg" alt="logo-pamsa-bco" width="200">
-                <p class="font-sm">PAMSA S.A. 2017 - TODOS LOS DERECHOS RESERVADOS</p>
+                <p class="font-sm text-nowrap mt-3 mt-md-0">PAMSA S.A. 2017 - TODOS LOS DERECHOS RESERVADOS</p>
             </div>
             <img src="../public/images/vectors/ico_linea-final.svg" alt="ico_linea-final">
         </div>
-
-
-
     </footer>
 
 

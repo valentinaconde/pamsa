@@ -1,5 +1,40 @@
+
 .ubication-text {
     position: absolute;
     top: 30%;
     left: 50%;
+}
+
+.terminal-icons-container{
+    // border only end 
+    border-right: 1px solid $light-gray;
+    height: 200px;
+}
+
+.maps2-puerto-pamsa{
+    width: 500px;
+}
+@media (max-width: 1130px) {
+    .terminal-icons-container{
+        border: none !important;
+        width: 120px;
+        // quiero editar la imagen dentro del container
+
+    }
+    .terminal-icons-image{
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ubication-text{
+        position: inherit;
+        left: 0;
+        text-align: center;
+    }
+
+    .maps2-puerto-pamsa
+    {
+        width: 80%;
+    }
 }

@@ -1,0 +1,9 @@
+.contact-container{
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .contact-container{
+        width: 100%;
+    }
+}

@@ -1,4 +1,4 @@
-.ambiente-text{
+.ambiente-text {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -8,8 +8,27 @@
     min-height: 90%;
 }
 
-.circle-text{
+.circle-text {
     position: absolute;
     top: 12%;
     left: 30%;
+}
+
+.medium-width {
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+
+    .medium-width {
+        width: 100%;
+    }
+
+    .ambiente-text {
+        position: inherit;
+        min-width: 100%;
+        min-height: 100%;
+        left: 0;
+    }
 }
