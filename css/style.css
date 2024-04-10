@@ -19,7 +19,7 @@
 }
 
 .font-xxl {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .font-xxxl {
@@ -399,9 +399,6 @@
   .balbula-image {
     width: 20%;
   }
-  .mapa-rutas-pamsa {
-    width: 90%;
-  }
   .navbar-toggler-icon {
     background-image: url(../public/images/vectors/menu.svg) !important;
     color: white !important;
@@ -618,8 +615,12 @@
   left: 30%;
 }
 
+.ico-circulo-container {
+  width: fit-content;
+}
+
 .ico-circulo {
-  width: 400px;
+  width: 550px;
 }
 
 @media (max-width: 768px) {
@@ -631,6 +632,16 @@
   }
   .ico-circulo {
     width: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .ico-circulo {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1570px) {
+  .ico-circulo {
+    width: 450px;
   }
 }
 .mapa-solapa-rutas {

@@ -14,19 +14,35 @@
     left: 30%;
 }
 
+.ico-circulo-container{
+    width: fit-content;
+}
 .ico-circulo{
-    width: 400px;
+    width: 550px;
 }
 
 @media (max-width: 768px) {
+
     .ambiente-text {
         position: inherit;
         min-width: 100%;
         min-height: 100%;
         left: 0;
     }
-    
+
     .ico-circulo{
-        width: 300px
+        width: 300px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .ico-circulo {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1570px) {
+    .ico-circulo {
+        width: 450px;
     }
 }
