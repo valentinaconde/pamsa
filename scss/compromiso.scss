@@ -18,24 +18,15 @@
     width: 400px;
 }
 
-
-
-
 @media (max-width: 768px) {
-
-
     .ambiente-text {
         position: inherit;
         min-width: 100%;
         min-height: 100%;
         left: 0;
     }
-
+    
     .ico-circulo{
         width: 300px
     }
-
-    // .circle-text {
-    //     font-size: 12px;
-    // }
 }

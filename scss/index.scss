@@ -193,11 +193,9 @@
 }
 
 .carousel-caption {
-    // background-color: $primary-color-transparent;
     width: 100%;
     height: 100%;
     left: 0 !important;
-
 }
 
 .carousel-button {
@@ -290,22 +288,23 @@
     width: 50%;
 }
 
-.footer-bar{
+.footer-bar {
     width: 50%;
 }
 
-.tons500-image{
+.tons500-image {
     width: 60%
 }
 
-.ledesma-image{
+.ledesma-image {
     width: 35%;
 }
-.seaboard-image{
+
+.seaboard-image {
     width: 45%;
 }
 
-.balbula-image{
+.balbula-image {
     width: 12%;
 }
 
@@ -313,13 +312,9 @@
     width: 50%;
 }
 
-.three-quarters-width{
+.three-quarters-width {
     width: 75%;
 }
-
-
-
-
 
 @media (max-width: 768px) {
     .font-sm {
@@ -354,7 +349,7 @@
         font-size: 12px;
     }
 
-    .alm-text-tanks{
+    .alm-text-tanks {
         font-size: 40px;
     }
 
@@ -406,29 +401,34 @@
         width: 100% !important;
     }
 
-    .footer-items{
+    .footer-items {
         width: 25%;
     }
-    .text-footer{
+
+    .text-footer {
         flex-direction: column;
         height: fit-content;
         text-align: center;
     }
-    .tons500-image{
+
+    .tons500-image {
         width: 90%;
     }
-    .ledesma-image{
+
+    .ledesma-image {
         width: 35%;
     }
-    .seaboard-image{
+
+    .seaboard-image {
         width: 50%;
         height: 50%;
     }
-    .balbula-image{
+
+    .balbula-image {
         width: 20%;
     }
 
-    .mapa-rutas-pamsa{
+    .mapa-rutas-pamsa {
         width: 90%;
     }
 
@@ -437,26 +437,23 @@
         color: white !important;
     }
 
-    .navbar-toggler{
+    .navbar-toggler {
         border: none !important;
     }
-    
+
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
         width: 30px !important;
         height: 30px !important;
     }
-    
+
     .medium-width {
         width: 95%;
     }
 
-    .three-quarters-width{
+    .three-quarters-width {
         width: 90%;
     }
-    
-
-
 }
 
 @media (min-width: 1570px) {
@@ -488,7 +485,7 @@
         font-size: 65px;
     }
 
-    .alm-text-tanks{
+    .alm-text-tanks {
         font-size: 70px;
     }
 
@@ -518,7 +515,6 @@
     .liq-solids {
         flex-direction: column;
         align-items: center;
-
     }
 }
 
@@ -551,7 +547,7 @@
         font-size: 35px;
     }
 
-    .alm-text-tanks{
+    .alm-text-tanks {
         font-size: 40px;
     }
 
@@ -571,7 +567,7 @@
         font-size: 30px;
     }
 
-    .mapa-rutas-pamsa{
+    .mapa-rutas-pamsa {
         width: 300px;
     }
 }
