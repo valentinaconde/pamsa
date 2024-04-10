@@ -53,7 +53,7 @@
     width: 45% !important;
 }
 
-.h-40 {
+.h-45 {
     height: 45%;
 }
 
@@ -299,10 +299,10 @@
 }
 
 .ledesma-image{
-    width: 15%;
+    width: 35%;
 }
 .seaboard-image{
-    width: 25%;
+    width: 45%;
 }
 
 .balbula-image{
@@ -313,13 +313,17 @@
     width: 50%;
 }
 
+.three-quarters-width{
+    width: 75%;
+}
+
 
 
 
 
 @media (max-width: 768px) {
     .font-sm {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .font-md {
@@ -445,6 +449,10 @@
     
     .medium-width {
         width: 95%;
+    }
+
+    .three-quarters-width{
+        width: 90%;
     }
     
 
