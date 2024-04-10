@@ -6,7 +6,6 @@
 }
 
 .terminal-icons-container{
-    // border only end 
     border-right: 1px solid $light-gray;
     height: 220px;
     width: 280px;
@@ -16,10 +15,8 @@
     width: 50%;
 }
 
-
 .terminal-icons-image{
     height: 100px !important;
-    
 }
 
 @media (max-width: 1130px) {
@@ -28,11 +25,11 @@
         height: 150px;
         width: 150px;
     }
+    
     .terminal-icons-image{
         height: 70px !important;
         
     }
-    
 }
 
 @media (max-width: 768px) {
