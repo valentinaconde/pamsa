@@ -315,7 +315,7 @@
 
 @media (max-width: 768px) {
   .font-sm {
-    font-size: 8px;
+    font-size: 10px;
   }
   .font-md {
     font-size: 12px;
@@ -566,7 +566,7 @@
   .terminal-icons-container {
     border: none !important;
     height: 150px;
-    width: 200px;
+    width: 150px;
   }
   .terminal-icons-image {
     height: 70px !important;
