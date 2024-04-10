@@ -282,7 +282,7 @@
 }
 
 .navbar-styles {
-  width: 50%;
+  width: 55%;
 }
 
 .footer-bar {
@@ -398,6 +398,9 @@
   }
   .balbula-image {
     width: 20%;
+  }
+  .mapa-rutas-pamsa {
+    width: 90%;
   }
   .navbar-toggler-icon {
     background-image: url(../public/images/vectors/menu.svg) !important;
